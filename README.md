@@ -14,8 +14,8 @@ conda activate jakalerobot
 ### Lerobot安装
 
 ```bash
-git clone https://github.com/arctic126/lerobot_lab.git
-cd lerobot_lab
+git clone https://github.com/arctic126/xiazhi_lerobot_lab.git
+cd xiazhi_lerobot_lab
 pip install -e . -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 pip uninstall numpy
@@ -161,7 +161,7 @@ uv run scripts/serve_policy.py policy:checkpoint \
 另外打开终端
 
 ```
-cd lerobot_lab
+cd xiazhi_lerobot_lab
 python eval_jaka_tavla.py \
     --server_host localhost \
     --server_port 8000 \
